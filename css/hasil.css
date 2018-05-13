@@ -1,0 +1,31 @@
+.box {
+	background-color: #DFDFDF;
+	border-radius: 10px;
+	height: 60px;
+	padding-top: 10px;
+	position: static;
+}
+
+input#inputcar, label, input#inputlokasi, select#input-tarif, button#cariulang {
+	margin-left: 10px;
+}
+
+button#cariulang {
+	width: 100px;
+}
+
+@media (max-width: 768px) {
+	input#inputcar, label, input#inputlokasi, select#input-tarif, button#cariulang {
+		margin-left: 0;
+	}
+	
+	button#cariulang {
+		margin-top: 10px;
+		width: 100%;
+	}
+
+	.box {
+		height: 280px;
+	}
+}
+

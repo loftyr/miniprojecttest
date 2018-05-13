@@ -1,0 +1,121 @@
+
+/*Index*/
+.main {
+	height: 564px;
+	background: url('../img/img5.png') no-repeat 0 -200px;
+	background-size: cover;
+}
+
+.main h3 {
+	padding-top: 40px;
+}
+
+#login {
+	float: right;
+}
+
+.main p {
+
+}
+
+button#cariguides, button#cari {
+	width: 80px;
+	margin: 10px;
+}
+
+.panel {
+	background: rgba(101, 108, 104, .6);
+	width: 40%;
+	border-radius: 10px;
+}
+
+#satu {
+	position: relative;
+	float: left;
+	margin-left: 9%;
+}
+
+#dua {
+	position: relative;
+	float: right;
+	margin-right: 9%;
+}
+
+
+.form-group {
+	padding: 0 10px;
+}
+
+footer {
+	background-color: #9FA3A0;
+	height: 80px;
+	padding-top: 28px;
+}
+
+/*Login*/
+
+body {
+	
+}
+
+.form-login {
+	width: 400px;
+	background: rgba(116, 172, 205, .8);
+	margin: auto;
+	margin-top: 100px;
+	border-radius: 10px
+}
+
+.form-login a {
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.form-login h4#judul {
+	padding-top: 10px;
+}
+
+hr {
+	width: 100px;
+	border: 1.5px solid black;
+	margin-top: 0;
+}
+
+button#masuk {
+	margin-left: 10px;
+	margin-bottom: 10px;
+	width: 100px;	
+}
+
+
+
+
+@media (max-width: 768px){
+	/*index*/
+	.main {
+		height: 1000px;
+		background-position: -600px 0;
+	}
+
+	.panel {
+		width: 90%;
+	}
+	
+	#login {
+		float: left;
+	}
+
+	#satu {
+		margin-left: 5%;
+	}
+	#dua {
+		margin-top: 10px;
+		float: left;
+		margin-left: 5%;
+	}
+
+	/*login*/
+	.form-login {
+		width: 100%;
+	}
+}

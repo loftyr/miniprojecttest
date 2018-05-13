@@ -1,0 +1,10 @@
+ul li.tanda {
+	border-right: 1.4px solid white;
+}
+
+
+@media (max-width: 768px) {
+	ul li.tanda {
+		border-right: none;
+	}
+}
